@@ -5,7 +5,10 @@ const GsapTo = () => {
   // TODO: Implement the gsap.to() method
   useGSAP(() => {
     gsap.to('#blue-box', {
-      
+      x: 250,
+      repeat: -2,
+      yoyo: true,
+      rotation: 360
     })
   }, [])
 
