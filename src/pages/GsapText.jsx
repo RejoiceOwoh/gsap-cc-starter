@@ -2,7 +2,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const GsapText = () => {
-  // TODO: Implement gsap text animation
+  // TODO: Implement gsap text animation and add a text to do little snithc video
   useGSAP(() => {
     gsap.to('#text', {
       ease: 'power1.inOut',
